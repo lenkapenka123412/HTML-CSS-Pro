@@ -1,0 +1,203 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);
+}
+
+.head {
+  @include displayFlex(flex,  nowrap, space-between, center);
+  padding: 25px 0;
+}
+
+.logo {
+  @include displayFlex(flex,  nowrap, space-between, center);
+}
+
+.logo-name {
+  @include displayFlex(flex,  nowrap, space-between, center);
+  gap: 13px;
+  padding: 0 37px 0 0;
+}
+
+.pink-d {
+  color: $baseColor;
+}
+
+.search-btn {
+  @include displayFlex(flex,  nowrap, space-between, center);
+}
+
+.search-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 14px;
+    font-weight: 300;
+
+    &:hover {
+      background: #f3f3f3;
+    }
+}
+
+.search-button button {
+  position: relative;
+}
+
+.search-button{
+  position: relative;
+  &:hover .mega-box {
+    display: flex;
+
+  }
+}
+
+.search-button:hover {
+  display: flex;
+}
+
+.fa-caret-right:before {
+  content: "\f0d7";
+  padding: 8px;
+  color: #838383;
+}
+
+
+.input-search {background: #ffffff;}
+.input-search input {
+  padding: 15px;
+  outline: none;
+  background-color: #fffdfd;
+  border: 1px solid #e6e6e6;
+  padding: 15px 196px 15px 19px;
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #a4a4a4;
+
+
+  &:hover {
+    border: 1px solid #dcdcdc;
+  }
+}
+
+
+.input-search button {
+  top: 0;
+  right: 0px;
+  border: 1px solid #e8e8e8;
+  border-radius: 0 5px 5px 0;
+  background: none;
+  cursor: pointer;
+}
+
+.input-search button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #a4a4a4;
+  padding: 15px;
+}
+
+.search-button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background: none;
+  padding: 15px 0 15px 15px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+
+.search-button::after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  padding: 15px 8px;
+  color: #838383;
+}
+
+.form-search {
+  display: flex;
+  justify-content: center;
+}
+
+.button-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-my-account {
+    background-color: $baseColor;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 14px;
+    padding: 13px 0 13px 19px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+}
+
+.btn-my-account a {
+  font-size: 15px;
+  //padding: 15px 0 15px 18px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  padding: 13px 0;
+}
+
+.btn-my-account:hover {
+  background: none;
+  border: 1px solid $baseColor;
+}
+
+.btn-my-account a:hover  {
+  color: $baseColor;
+}
+
+.btn-my-account a:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0 12px 0 8px;
+}
+
+.btn-my-account .fa-caret-down::before {
+  color: white;
+}
+
+.btn-my-account .fa-caret-down::before:hover {
+  color: $baseColor;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-shopping-cart {
+  background: none;
+  border: none;
+  padding-right: 26px;
+}
+
+.button__my_account {
+  background: $baseColor;
+  color: white;
+  border: 1px solid $baseColor;
+  border-radius: 0px 3px 3px 0px;
+}
+
+
+

@@ -1,0 +1,137 @@
+
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 109px;
+  padding-bottom: 90px;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 29px;
+}
+
+.footer_logo a {
+  padding-right: 13px;
+}
+
+.footer-bra {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #3e3e40
+}
+
+.footer-d {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: $baseColor;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #898989;
+  max-width: 425px;
+}
+
+.footer-company {
+  display: block;
+}
+
+.footer-title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+  padding-bottom: 25px;
+}
+
+.footer-link {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #898989;
+  padding: 10px;
+
+  &:hover {
+    color: #f16d7f;
+  }
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #7a7a7a;
+  padding: 32px;
+}
+
+.copyright {
+  background-color: #e6e6e6;
+}
+
+.social_media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 147px;
+  gap: 8px;
+
+}
+
+.social_media button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+
+.social_media button:hover {
+  background: rgb(241, 109, 127);
+  transition: 0.3s;
+}
+
+.social_media svg {
+  padding: 8px;
+  fill: #b2b2b2;
+}
+
+svg:hover path{
+  fill: aliceblue;
+  transition: 0.3s;
+}
